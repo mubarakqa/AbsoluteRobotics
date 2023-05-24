@@ -81,7 +81,7 @@ describe("Given I am on the seller dashboard", function () {
         cy.wait(3000)
         cy.get(Product.SubCategoryCollection).type("Laptops" + "{enter}")
         //cy.get(Product.SelectSubCollection).click({force: true})
-        cy.wait(3000)
+        cy.wait(3000);
         cy.get(Product.SelectSubCollection).type("Macbooks" + "{enter}")
         cy.get(Product.ProductName).type("Ipad")
         cy.wait(3000)
