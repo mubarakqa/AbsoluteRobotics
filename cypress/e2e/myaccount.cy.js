@@ -9,8 +9,8 @@ it("MY ACCOUNT- I Should be able to view my account", function () {
     cy.get(myaccount.usernameField).type('qlason@yopmail.com')
     cy.get(myaccount.passwordField).click()
     cy.get(myaccount.passwordField).type('TITILOLAMi@1')
-   cy.get(myaccount.loginBtn).click()
-cy.get(myaccount.accountbtn).click()
+    cy.get(myaccount.loginBtn).click()
+    cy.get(myaccount.accountbtn).click()
 })
     //it("MY ACCOUNT- I Should be able to click on manage profile button", function () {
         //cy.get(myaccount.signupBtn).click()
